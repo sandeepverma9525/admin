@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Ravi Kumar",
+      "userId": "RV123",
+      "level": "1",
+      "joinDate": "2024-05-01",
+      "referrals": 5,
+      "earnings": 120.5,
+      "status": "Active"
+    },
+    {
+      "name": "Sneha Singh",
+      "userId": "SN456",
+      "level": "2",
+      "joinDate": "2024-04-15",
+      "referrals": 3,
+      "earnings": 75.0,
+      "status": "Inactive"
+    }
+  ]
+  

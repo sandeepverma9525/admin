@@ -1,0 +1,658 @@
+.download-center-container {
+  /* background-color: #0f172a; */
+   /* slate-900 */
+  color: white;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.download-center-header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.download-center-title {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold;
+}
+
+.download-center-button {
+  background-color: #10b981; /* emerald-500 */
+  width: 185px;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-center-button:hover {
+  background-color: #059669; /* emerald-600 */
+}
+
+.download-center-button-icon {
+  margin-right: 0.5rem;
+}
+
+
+.download-stats-grid {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .download-stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.download-stats-card {
+  background-color: #192539;
+   
+   border: 1px solid #1F2E42;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.download-stats-label {
+  /* background-color: #2563eb;  */
+  
+  display: inline-block;
+  /* padding: 0.25rem 0.5rem; */
+  border-radius: 0.375rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+  font-size: 19px;
+}
+
+.download-stats-count {
+  /* border: 1px solid red; */
+  font-size: 2.25rem; 
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.download-stats-text {
+  color: #94a3b8; 
+  font-size: 15px;
+}
+
+
+
+/* Filter */
+
+.download-filter-container {
+  /* background-color: #1e293b; */
+  border: 1px solid #1F2E42;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.download-filter-title {
+  /* border: 1px solid red; */
+  font-size: 1.5rem; 
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.download-filter-controls {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .download-filter-controls {
+    flex-direction: row;
+  }
+}
+
+.download-filter-search {
+  
+  flex: 1;
+  position: relative;
+}
+
+.download-filter-icon {
+  position: absolute;
+  inset: 0;
+  left: 0.75rem;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.download-filter-svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #94a3b8; /* slate-400 */
+}
+
+/* Search */
+.download-filter-input {
+  background-color: #202d3e;
+  color: white;
+  width: 50%;
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  border-radius: 0.375rem;
+  border: none;
+}
+
+.download-filter-dropdown {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .download-filter-dropdown {
+    width: 33.333%;
+  }
+}
+
+.download-filter-select {
+   background-color: #202d3e; 
+  color: white;
+  width: 40%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  appearance: none;
+  border: none;
+  margin-left: 250px;
+}
+
+
+
+
+/* Basic table styling */
+
+/* ! Table  */
+.download-overflow-x-auto{
+  /* border: 1px solid #1F2E42; */
+}
+
+
+.download-resource-table {
+   /* border: 1px solid #1F2E42; */
+   background-color: #1F2E42;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.download-resource-table th{
+  /* border: 1px solid #1F2E42; */
+  /* background-color:#1F2E42 ; */
+  width: 100%;
+}
+
+.download-resource-table th,
+.download-resource-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #4b5563; /* Slate border */
+    /* border: 1px solid #ea5414; */
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.download-table-header {
+    color: #d1d5db;
+    display: flex; /* Slate header text */
+    /* font-size: larger; */
+}
+
+
+.download-table-row{
+  /* border: 1px solid rgb(47, 255, 0); */
+  display: flex;
+}
+
+.download-table-row td{
+  font-size: 14px;
+}
+
+.download-table-row:hover {
+    background-color: #374151; /* Darker slate background on hover */
+    transition: background-color 0.3s ease;
+}
+
+.download-resource-title {
+    display: flex;
+    align-items: center;
+    /* color: #059669; */
+    font-size: 15px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.icon.pdf {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.icon.zip {
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.icon.pptx {
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.download-text-right {
+    text-align: right;
+}
+
+/* Action buttons */
+.download-action-btn {
+    width: 55px;
+    height: 34px;
+    /* font-size: 30px; */
+    margin-right: 2px;
+    cursor: pointer;
+    /* background-size: cover; */
+    border: none;
+    transition: transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+
+}
+
+.download-delete-icon{
+  color: red;
+}
+
+.download-action-btn:hover {
+    transform: scale(1.1);
+}
+
+
+.download-action-btn.download:hover {
+    background-color: #375c97; /* Blue */
+}
+
+.download-action-btn.edit:hover {
+    background-color: #75612f; /* Yellow */
+}
+
+.download-action-btn.delete:hover {
+    background-color: #5e3131; /* Red */
+}
+
+
+/* !Modal Overlay */
+.downloadecenter-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+/* Modal Content */
+.downloadecenter-modal-content {
+    background-color: #2d3748;
+    border-radius: 8px;
+    padding: 24px;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Modal Header */
+.downloadecenter-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.downloadecenter-modal-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e2e8f0;
+}
+
+.downloadecenter-close-btn {
+    background: none;
+    width: 60px;
+    border: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.downloadecenter-close-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Modal Body */
+.downloadecenter-modal-body {
+    margin-bottom: 24px;
+}
+
+.downloadecenter-input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.downloadecenter-input-group label {
+    color: #a0aec0;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.downloadecenter-input-group input,
+.downloadecenter-input-group select,
+.downloadecenter-input-group textarea {
+    background-color: #4a5568;
+    color: #e2e8f0;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #2d3748;
+}
+
+.downloadecenter-input-group textarea {
+    resize: vertical;
+    width: 650px;
+    /* background-color: #10b981; */
+}
+
+/* File Upload */
+.downloadecenter-file-upload .downloadecenter-file-selector {
+    display: flex;
+    align-items: center;
+}
+
+.downloadecenter-file-btn {
+    background-color: #3182ce;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.downloadecenter-file-input {
+    display: none;
+}
+
+.downloadecenter-file-name {
+    margin-left: 16px;
+    color: #a0aec0;
+}
+
+.downloadecenter-file-info {
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: #a0aec0;
+}
+
+/* Add New Resorce Modal Footer */
+.downloadecenter-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.downloadecenter-cancel-btn,
+.downloadecenter-add-btn {
+    background-color: #4a5568;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.downloadecenter-cancel-btn {
+    background-color: #2d3748;
+}
+
+.downloadecenter-add-btn {
+    background-color: #3182ce;
+}
+
+.downloadecenter-cancel-btn:hover,
+.downloadecenter-add-btn:hover {
+    opacity: 0.9;
+}
+
+
+/* ! Edit */
+.downloadedit-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.downloadedit-modal-container {
+  background-color: #243442;
+  padding: 32px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  color: white;
+  height: 750px;
+}
+
+.downloadedit-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.downloadedit-modal-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.downloadedit-close-btn {
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.downloadedit-close-btn:hover {
+  color: white;
+}
+
+.downloadedit-close-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.downloadedit-modal-content {
+  margin-bottom: 24px;
+}
+
+.downloadedit-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media(min-width: 768px) {
+  .downloadedit-form-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.downloadedit-form-group {
+  margin-bottom: 16px;
+}
+
+.downloadedit-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #aac5f0;
+}
+
+ .downloadedit-form-group input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  background-color: #3d454c;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+
+.downloadedit-form-group textarea {
+  resize: vertical;
+}
+
+.downloadedit-file-input {
+  display: flex;
+  align-items: center;
+}
+
+.downloadedit-file-label {
+  background-color: #4c83d3;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.downloadedit-file-label:hover {
+  background-color: #376fa0;
+}
+
+.downloadedit-file-input-hidden {
+  display: none;
+}
+
+.downloadedit-file-info {
+  margin-left: 12px;
+  color: #ccc;
+}
+
+.downloadedit-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.downloadedit-cancel-btn, .downloadedit-update-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  width: 180px;
+}
+
+.downloadedit-cancel-btn {
+  background-color: #555;
+}
+
+.downloadedit-cancel-btn:hover {
+  background-color: #444;
+}
+
+.downloadedit-update-btn {
+  background-color: #f0a500;
+}
+
+.downloadedit-update-btn:hover {
+  background-color: #e08900;
+}
+
+
+/* !downloaddelete- */
+.downloaddelete-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.downloaddelete-modal-container {
+  background-color: #323c48;
+  padding: 32px;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+.downloaddelete-modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.downloaddelete-modal-message {
+  margin-bottom: 24px;
+}
+
+.downloaddelete-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.downloaddelete-cancel-btn, .downloaddelete-delete-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.downloaddelete-cancel-btn {
+  background-color: #555;
+}
+
+.downloaddelete-cancel-btn:hover {
+  background-color: #444;
+}
+
+.downloaddelete-delete-btn {
+  background-color: #e11d48;
+}
+
+.downloaddelete-delete-btn:hover {
+  background-color: #c91c3a;
+}

@@ -1,0 +1,136 @@
+
+
+.bonus-container {
+  background: #111827;
+  color: white;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.bonus-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.bonus-buttons button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset{
+    border: 1px solid #2B3D54;
+    background-color: #1f2937; 
+    color: white;
+}
+
+.bonus-buttons .save {
+  background-color: teal;
+  color: white;
+  border: 1px solid #2B3D54;
+}
+
+.top-bonuses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.bonus-top-card{
+
+display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.bonus-card {
+  background: #1f2937;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  
+}
+
+.bonustop-input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  width: 200px;
+}
+
+.bonustop-input-group input {
+  flex: 1;
+  padding: 0.4rem;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  background: #111827;
+  color: white;
+  text-align: right;
+  height: 38px;
+  /* border: 1px solid #2B3D54; */
+  
+}
+
+.bonustop-input-group span {
+  background: #111827;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid #374151;
+}
+
+.level-table {
+  /* background: #1f2937; */
+  background-color: #0F1C2E;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #374151;
+}
+
+.level-table h2 {
+  margin-bottom: 1rem;
+}
+
+.level-table table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.level-table th, .level-table td {
+  padding: 0.6rem;
+  border-bottom: 1px solid #374151;
+  text-align: center;
+  background-color: #0F1C2E;
+}
+
+.level-table input {
+  width: 50%;
+  padding: 0.3rem;
+  background: #111827;
+  color: white;
+  border: 1px solid #374151;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 20px;
+  border: 1px solid #2B3D54;
+}
+
+
+
+.level-heading{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+
+.bonus-level-card{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}

@@ -1,0 +1,6 @@
+[
+    { "type": "Direct Bonus", "amount": 1200, "date": "2025-04-01" },
+    { "type": "Team Bonus", "amount": 750, "date": "2025-04-05" },
+    { "type": "Monthly Bonus", "amount": 3000, "date": "2025-04-30" }
+  ]
+  

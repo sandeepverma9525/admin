@@ -1,0 +1,15 @@
+.Announcements_cont{
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Annonce_hear{
+    border: 1px solid red;
+    margin: 30px;
+}
+
+.anonc_para{
+    color: rgb(93, 88, 88);
+}

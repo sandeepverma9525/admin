@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "Server Maintenance",
+      "date": "2025-05-01",
+      "description": "The system will be down for maintenance from 2AM to 4AM.",
+      "icon": "🔧",
+      "isRead": false
+    },
+    {
+      "id": 2,
+      "title": "New Feature Released",
+      "date": "2025-04-29",
+      "description": "We’ve added a new referral dashboard feature.",
+      "icon": "🚀",
+      "isRead": true
+    }
+  ]
+  

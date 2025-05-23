@@ -1,0 +1,28 @@
+{
+    "balance": 420.75,
+    "lastPayoutDate": "2025-05-06",
+    "pendingBonuses": {
+      "team": 120.5,
+      "direct": 80.25,
+      "monthly": 60.00,
+      "unlockInDays": 5
+    },
+    "bonusHistory": [
+      {
+        "type": "Direct Bonus",
+        "amount": 45.00,
+        "date": "2025-05-01"
+      },
+      {
+        "type": "Team Bonus",
+        "amount": 70.00,
+        "date": "2025-04-27"
+      },
+      {
+        "type": "Monthly Bonus",
+        "amount": 60.00,
+        "date": "2025-04-30"
+      }
+    ]
+  }
+  

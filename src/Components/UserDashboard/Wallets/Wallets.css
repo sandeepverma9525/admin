@@ -1,0 +1,487 @@
+ * {
+   box-sizing: border-box;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+ }
+
+ .affiliate-wallet-container {
+   max-width: 1500px;
+   margin: 0 auto;
+   padding: 40px;
+   color: #fff;
+   /* background-color: #1a2639; */
+   border-radius: 8px;
+   /* border: 1px solid red; */
+ }
+
+ .Affiliatewallete-main-title {
+   margin-bottom: 24px;
+   font-size: 24px;
+   font-weight: 600;
+   /* display: flex; */
+ }
+
+ /* Summary Boxes */
+ .summary-boxes {
+  /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   gap: 16px;
+   margin-bottom: 32px;
+ }
+
+ .summary-box {
+  border: 1px solid #1F2E42;
+   flex: 1;
+   padding: 16px;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .total-balance {
+   /* background-color: #e8f5e9; */
+ }
+
+ .pending-balance {
+   /* background-color: #fff8e1; */
+ }
+
+ .locked-balance {
+   /* background-color: #ffebee; */
+ }
+
+ .total-earnings {
+   /* background-color: #e3f2fd; */
+ }
+
+ .box-label {
+   color: #fff;
+   padding: 4px 8px;
+   border-radius: 4px;
+   font-size: 14px;
+   margin-bottom: 8px;
+   display: inline-block;
+   width: fit-content;
+ }
+
+ .total-balance .box-label {
+   /* background-color: #2979ff; */
+   font-size: 20px;
+ }
+
+ .pending-balance .box-label {
+   /* background-color: #2979ff; */
+   font-size: 20px;
+ }
+
+ .locked-balance .box-label {
+   /* background-color: #2979ff; */
+   font-size: 20px;
+ }
+
+ .total-earnings .box-label {
+   /* background-color: #2979ff; */
+   font-size: 20px;
+ }
+
+ .box-value {
+   font-size: 24px;
+   font-weight: 700;
+   /* color: #121212; */
+   margin-bottom: 4px;
+ }
+
+ .box-subtitle {
+   font-size: 14px;
+   color: #555;
+ }
+
+ /* Wallet Management Section */
+ .Affiliatewallete-wallet-management {
+   background-color: #192437;
+   border-radius: 8px;
+   padding: 24px;
+   margin-top: 20px;
+   border: 1px solid #1F2E42;
+ }
+
+ .Affiliatewallete-wallet-management h2 {
+   margin-top: 0;
+   margin-bottom: 20px;
+   font-size: 20px;
+   font-weight: 500;
+   display: flex;
+
+ }
+
+ .wallet-controls {
+  /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+
+ .search-input {
+   padding: 10px 16px;
+   border-radius: 4px;
+   border: none;
+   background-color: #253044;
+   color: #fff;
+   width: 400px;
+   height: 50px;
+   font-size: 19px;
+ }
+
+ .search-input::placeholder {
+   color: #8f9baa;
+ }
+
+ .walletefilter-container{
+  /* border: 1px solid red; */
+margin-right: 20px;
+ }
+ .walletstatus-filter {
+   padding: 10px 16px;
+   border-radius: 4px;
+   border: none;
+   background-color: #28364d;
+   color: #fff;
+   height: 50px;
+   
+ }
+
+ .export-button {
+   padding: 10px 20px;
+   background-color: #1a2332;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+ }
+
+
+ /* Affiliates Table */
+ /* Table Styles */
+ .walleteaffiliates-table {
+   background-color: #111927;
+   border-radius: 8px;
+   overflow: hidden;
+   border: 1px solid #1F2E42;
+ }
+
+ .walletetable-header {
+   display: grid;
+   grid-template-columns: 0.7fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   background-color: #1a2332;
+   padding: 12px 16px;
+   font-weight: 500;
+ }
+
+ .walleteheader-cell {
+   font-size: 14px;
+ }
+
+ .walletetable-row {
+   display: grid;
+   grid-template-columns: 0.7fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   padding: 16px;
+   border-bottom: 1px solid #1F2E42;
+   align-items: center;
+ }
+
+ .welletecell {
+   font-size: 14px;
+ }
+
+ .walletecellaffiliate-info{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .walleteaffiliatename {
+   font-weight: 500;
+ }
+
+ .walleteaffiliate-email {
+   font-size: 12px;
+   color: #8f9baa;
+   margin-top: 4px;
+ }
+
+ .walletecell{
+  /* border: 1px solid red; */
+ }
+
+ .walletelevel-badge{
+   padding: 4px 12px;
+   border-radius: 20px;
+   font-size: 12px;
+   display: inline-block;
+ }
+
+ .walletelevel-badge.gold {
+   background-color: rgba(255, 193, 7, 0.15);
+   color: #ffc107;
+ }
+
+ .walletelevel-badge.silver {
+   background-color: rgba(158, 158, 158, 0.15);
+   color: #9e9e9e;
+ }
+
+ .walletelevel-badge.bronze {
+   background-color: rgba(141, 110, 99, 0.15);
+   color: #8d6e63;
+ }
+
+ .walletelevel-badge.platinum {
+   background-color: rgba(156, 39, 176, 0.15);
+   color: #9c27b0;
+ }
+
+ .walletestatus-badge {
+   padding: 4px 12px;
+   border-radius: 20px;
+   font-size: 12px;
+   display: inline-block;
+ }
+
+ .walletestatus-badge.active {
+   background-color: rgba(76, 175, 80, 0.15);
+   color: #4caf50;
+ }
+
+ .walletestatus-badge.pending {
+   background-color: rgba(255, 152, 0, 0.15);
+   color: #ff9800;
+ }
+
+ .walletestatus-badge.suspended {
+   background-color: rgba(244, 67, 54, 0.15);
+   color: #f44336;
+ }
+
+ .walleteactions {
+   display: flex;
+   gap: 8px;
+ }
+
+ .walleteaction-button {
+   width: 50px;
+   height: 32px;
+   border-radius: 4px;
+   border: none;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+ }
+
+ .walleteaction-button.walleteview {
+   background-color: rgba(33, 150, 243, 0.15);
+   color: #2196f3;
+ }
+
+ .walleteaction-button.walleteadd {
+   background-color: rgba(76, 175, 80, 0.15);
+   color: #4caf50;
+ }
+
+ 
+
+ .walleteaction-button.walletededuct {
+   background-color: rgba(244, 67, 54, 0.15);
+   color: #f44336;
+ }
+
+
+/*  */
+ /* Css done */
+
+ /* Modal Styles */
+ .modal-backdrop {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 1000;
+ }
+
+ .modal {
+   background-color: #1a2639;
+   border-radius: 8px;
+   width: 500px;
+   max-width: 90%;
+   max-height: 90vh;
+   overflow-y: auto;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+ }
+
+ .modal-header {
+   padding: 16px 20px;
+   border-bottom: 1px solid #2c3e50;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .modal-header h3 {
+   margin: 0;
+   font-size: 18px;
+   font-weight: 500;
+ }
+
+ .close-button {
+   background: none;
+   border: none;
+   font-size: 24px;
+   cursor: pointer;
+   color: #8f9baa;
+ }
+
+ .modal-content {
+   padding: 20px;
+ }
+
+ /* Details Modal Styles */
+ .details-section {
+   margin-bottom: 20px;
+ }
+
+ .detail-row {
+   display: flex;
+   margin-bottom: 12px;
+ }
+
+ .detail-label {
+   min-width: 100px;
+   font-weight: 500;
+ }
+
+ .financial-summary {
+   background-color: #111927;
+   padding: 15px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+ }
+
+ .financial-item {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+ }
+
+ .financial-label {
+   font-weight: 500;
+ }
+
+ .transactions-section h4 {
+   margin-top: 0;
+   margin-bottom: 12px;
+ }
+
+ .transactions-list {
+   max-height: 200px;
+   overflow-y: auto;
+ }
+
+ .transaction-item {
+   display: flex;
+   justify-content: space-between;
+   padding: 12px 0;
+   border-bottom: 1px solid #2c3e50;
+ }
+
+ .transaction-type {
+   font-weight: 500;
+ }
+
+ .transaction-details {
+   text-align: right;
+ }
+
+ .transaction-date {
+   font-size: 12px;
+   color: #8f9baa;
+   margin-bottom: 4px;
+ }
+
+ .positive {
+   color: #4caf50;
+ }
+
+ .negative {
+   color: #f44336;
+ }
+
+ /* Form Styles */
+ .form-group {
+   margin-bottom: 20px;
+ }
+
+ .form-group label {
+   display: block;
+   margin-bottom: 8px;
+   font-weight: 500;
+ }
+
+ .form-value {
+   background-color: #111927;
+   padding: 10px;
+   border-radius: 4px;
+ }
+
+ input[type="number"],
+ select,
+ textarea {
+   width: 100%;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #2c3e50;
+   background-color: #111927;
+   color: #fff;
+ }
+
+ textarea {
+   min-height: 80px;
+   resize: vertical;
+ }
+
+ .form-actions {
+   display: flex;
+   justify-content: flex-end;
+   gap: 12px;
+   margin-top: 24px;
+ }
+
+ .cancel-button {
+   padding: 10px 20px;
+   background-color: transparent;
+   border: 1px solid #8f9baa;
+   color: #8f9baa;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .submit-button {
+   padding: 10px 20px;
+   background-color: #2196f3;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .submit-button.deduct {
+   background-color: #f44336;
+ }

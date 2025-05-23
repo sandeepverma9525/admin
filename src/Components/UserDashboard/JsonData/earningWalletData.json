@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "date": "2025-05-01",
+      "description": "Referral Bonus",
+      "type": "credit",
+      "amount": 1500
+    },
+    {
+      "id": 2,
+      "date": "2025-05-02",
+      "description": "Withdrawal",
+      "type": "debit",
+      "amount": 1000
+    },
+    {
+      "id": 3,
+      "date": "2025-05-03",
+      "description": "Level Income",
+      "type": "credit",
+      "amount": 2000
+    },
+    {
+      "id": 4,
+      "date": "2025-05-04",
+      "description": "Binary Income",
+      "type": "credit",
+      "amount": 500
+    },
+    {
+      "id": 5,
+      "date": "2025-05-05",
+      "description": "Withdrawal",
+      "type": "debit",
+      "amount": 1200
+    }
+  ]
+  

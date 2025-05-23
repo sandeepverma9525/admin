@@ -1,0 +1,29 @@
+.container {
+  /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main {
+    /* border: 1px solid red; */
+    display: flex;
+    /* border-top: 1px solid #0c8a73; */
+  }
+  
+  .content {
+    border-top: 1px solid #09534d;
+    flex: 1;
+    margin-top: 100px;
+    /* border-top: 2px solid #03b0a2; */
+    /* margin-left: 220px; */
+  }
+
+  
+  
+  @media (max-width: 768px) {
+    .content {
+      margin-left: 0;
+    }
+  }
+
+  

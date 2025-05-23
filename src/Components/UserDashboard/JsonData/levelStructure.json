@@ -1,0 +1,12 @@
+[
+    { "level": 1, "activeMembers": 8, "inactiveMembers": 0, "volume": 4500, "totalMembers": 8 },
+    { "level": 2, "activeMembers": 22, "inactiveMembers": 2, "volume": 12750, "totalMembers": 24 },
+    { "level": 3, "activeMembers": 48, "inactiveMembers": 8, "volume": 28400, "totalMembers": 56 },
+    { "level": 4, "activeMembers": 78, "inactiveMembers": 16, "volume": 36900, "totalMembers": 94 },
+    { "level": 5, "activeMembers": 65, "inactiveMembers": 25, "volume": 42000, "totalMembers": 90 },
+    { "level": 6, "activeMembers": 52, "inactiveMembers": 28, "volume": 31000, "totalMembers": 80 },
+    { "level": 7, "activeMembers": 40, "inactiveMembers": 35, "volume": 27500, "totalMembers": 75 },
+    { "level": 8, "activeMembers": 22, "inactiveMembers": 38, "volume": 15000, "totalMembers": 60 },
+    { "level": 9, "activeMembers": 10, "inactiveMembers": 50, "volume": 9800, "totalMembers": 60 }
+  ]
+  

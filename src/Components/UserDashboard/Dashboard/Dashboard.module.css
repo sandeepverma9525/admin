@@ -1,0 +1,44 @@
+/* Dashboard.module.css */
+.dashboardContainer {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* background-color: #152637; */
+    min-height: 100vh;
+  }
+
+  .dashhead{
+    color: aliceblue;
+  }
+  
+
+
+  .Dasnbboardheading{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  /* .dashtopbtn{
+    border: 1px solid;
+    height: 50px;
+  } */
+
+  .dashboard_topbutton, .dashboard_topbutton2{
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    /* padding: 10px; */
+    font-weight: 500;
+    margin-right: 10px;
+    background-color: #152637;
+    border:1px solid #4B5563;
+    color: aliceblue;
+    border-radius: 5px;
+    transition: all;
+  }
+
+  .dashboard_topbutton:hover, .dashboard_topbutton2:hover{
+    background-color: #32B3A6;
+  }

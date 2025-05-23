@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "role": "Founder",
+    "country": "USA",
+    "children": [
+      {
+        "id": 2,
+        "name": "Alice Smith",
+        "role": "Manager",
+        "country": "Canada",
+        "children": []
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "role": "Manager",
+        "country": "UK",
+        "children": [
+          {
+            "id": 4,
+            "name": "Sara Williams",
+            "role": "Associate",
+            "country": "USA",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

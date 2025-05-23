@@ -1,0 +1,50 @@
+[
+  {
+    "id": "AF001",
+    "name": "John Doe",
+    "level": "Gold",
+    "team": 24,
+    "referrals": 5,
+    "status": "Active"
+  },
+  {
+    "id": "AF002",
+    "name": "Alice Smith",
+    "level": "Silver",
+    "team": 12,
+    "referrals": 3,
+    "status": "Active"
+  },
+  {
+    "id": "AF003",
+    "name": "Robert Johnson",
+    "level": "Bronze",
+    "team": 5,
+    "referrals": 2,
+    "status": "Active"
+  },
+  {
+    "id": "AF004",
+    "name": "Mary Williams",
+    "level": "Gold",
+    "team": 31,
+    "referrals": 7,
+    "status": "Active"
+  },
+  {
+    "id": "AF005",
+    "name": "James Brown",
+    "level": "Silver",
+    "team": 8,
+    "referrals": 1,
+    "status": "Inactive"
+  },
+  {
+    "id": "AF006",
+    "name": "Patricia Davis",
+    "level": "Platinum",
+    "team": 47,
+    "referrals": 12,
+    "status": "Active"
+  }
+]

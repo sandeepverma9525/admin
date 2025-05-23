@@ -1,0 +1,135 @@
+/* Dashboard specific styles */
+
+.dashboard-header {
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Tab Navigation */
+  .tab-nav {
+    display: flex;
+    border-bottom: 1px solid #374151; /* gray-700 */
+    margin-bottom: 1.5rem;
+  }
+  
+  .tab-button {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: #9ca3af; /* gray-400 */
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    color: #14b8a6; /* teal-500 */
+    border-bottom: 2px solid #14b8a6; /* teal-500 */
+  }
+  
+  .tab-button svg {
+    margin-right: 0.5rem;
+  }
+  
+  /* Meeting Cards */
+  .meeting-card {
+    margin-bottom: 1rem;
+  }
+  
+  .meeting-card-title {
+    margin-bottom: 0.25rem;
+  }
+  
+  .meeting-card-description {
+    color: #9ca3af; /* gray-400 */
+    margin-bottom: 1rem;
+  }
+  
+  .meeting-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .meeting-info-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .meeting-info-item svg {
+    margin-right: 0.5rem;
+    color: #9ca3af; /* gray-400 */
+  }
+  
+  .meeting-link-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .meeting-link-label {
+    margin-right: 0.5rem;
+    color: #9ca3af; /* gray-400 */
+  }
+  
+  .meeting-link {
+    background-color: #374151; /* gray-700 */
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .copy-button {
+    background-color: #374151; /* gray-700 */
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    margin-left: 0.5rem;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .copy-button:hover {
+    background-color: #4b5563; /* gray-600 */
+  }
+  
+  .meeting-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .host-info {
+    color: #9ca3af; /* gray-400 */
+  }
+  
+  /* Recordings Tab */
+  .empty-recordings {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .empty-recordings svg {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .empty-recordings-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .empty-recordings-text {
+    color: #9ca3af; /* gray-400 */
+  }

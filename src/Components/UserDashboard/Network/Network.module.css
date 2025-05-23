@@ -1,0 +1,132 @@
+.myTeamContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+  }
+
+  .network_teamContainer{
+    /* border: 1px solid red; */
+    padding: 40px;
+    /* background-color: #1A2A38; */
+  }
+
+  
+  
+  .network_topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actionButtons button {
+    padding: 8px 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .actionButtons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .tabButton {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .tabButton:hover {
+    background: #e8f0fe;
+    border-color: #007bff;
+  }
+  
+  .activeTab {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+
+
+  /*! Card */
+
+  .network_topCards {
+  /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+  }
+  
+  .network_card {
+    border: 1px solid #2B3D54;
+    /* background-color: white; */
+    flex: 1 1 calc(25% - 20px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* background-color: rgb(2, 83, 83); */
+    background-color: #0c1a2b;
+  }
+  
+  .network_icon {
+    font-size: 28px;
+    color: #0ea295;
+  }
+  
+  .network_card h4 {
+    margin: 0;
+    font-size: 12px;
+    color: #a7a3a3;
+  }
+  
+  .network_card p {
+    margin-top: 10px ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  @media (max-width: 768px) {
+    .network_card {
+      flex: 1 1 100%;
+    }
+  }
+  
+
+  .network_tabButtons{
+    /* border: 1px solid; */
+  }
+

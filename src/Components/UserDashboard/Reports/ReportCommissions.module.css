@@ -1,0 +1,73 @@
+.RevenuedirectAffiliatesContainer {
+    background-color: #303a47;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    
+  }
+  
+  .Revenue_heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+
+  .Revenue_tablepara{
+    color: gray;
+    padding-bottom:10px ;
+  }
+  
+  .Revenue_table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 1px solid; */
+    
+  }
+  
+  .Revenue_table th{
+    background-color:#3c4a5d;
+  }
+
+  .Revenue_table td{
+    background-color:#2B3D54;
+  }
+
+  .Revenue_table th,
+  .Revenue_table td {
+    padding: 12px;
+    border-bottom: 1px solid #345c90;
+    text-align: left;
+    font-size: 15px;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .active {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .inactive {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .viewBtn {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .viewBtn:hover {
+    background-color: #0056b3;
+  }
+  

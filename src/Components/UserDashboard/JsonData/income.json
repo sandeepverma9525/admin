@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "invoice": "INV-001",
+    "date": "2025-05-01",
+    "dueDate": "2025-05-03",
+    "amount": 120.50,
+    "status": "Paid",
+    "type": "Direct Income",
+    "description": "Referral commission for April",
+    "active": true
+  },
+  {
+    "id": 2,
+    "invoice": "INV-002",
+    "date": "2025-04-28",
+    "dueDate": "2025-04-30",
+    "amount": 85.00,
+    "status": "Pending",
+    "type": "Bonus",
+    "description": "Performance bonus for March",
+    "active": true
+  },
+  {
+    "id": 3,
+    "invoice": "INV-003",
+    "date": "2025-04-20",
+    "dueDate": "2025-04-22",
+    "amount": 50.25,
+    "status": "Paid",
+    "type": "Direct Income",
+    "description": "Referral commission for March",
+    "active": false
+  },
+  {
+    "id": 4,
+    "invoice": "INV-004",
+    "date": "2025-04-15",
+    "dueDate": "2025-04-17",
+    "amount": 200.00,
+    "status": "Overview",
+    "type": "Bonus",
+    "description": "Special achievement bonus",
+    "active": true
+  },
+  {
+    "id": 5,
+    "invoice": "INV-005",
+    "date": "2025-04-10",
+    "dueDate": "2025-04-12",
+    "amount": 75.75,
+    "status": "Paid",
+    "type": "Direct Income",
+    "description": "Referral commission for February",
+    "active": true
+  }
+]

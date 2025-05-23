@@ -1,0 +1,24 @@
+[
+    {
+      "email": "john.doe@example.com",
+      "joiningDate": "2024-02-15",
+      "teamSize": 8,
+      "earnings": 120.5,
+      "status": "Active"
+    },
+    {
+      "email": "jane.smith@example.com",
+      "joiningDate": "2023-12-01",
+      "teamSize": 5,
+      "earnings": 75.0,
+      "status": "Inactive"
+    },
+    {
+      "email": "michael.lee@example.com",
+      "joiningDate": "2024-01-20",
+      "teamSize": 12,
+      "earnings": 210.8,
+      "status": "Active"
+    }
+  ]
+  

@@ -1,0 +1,71 @@
+.analyticContainer {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   /* background-color: #1A2A38; */
+    min-height: 100vh;
+  }
+
+  .anahead {
+    /* border: 1px solid red; */
+    color: aliceblue;
+    display: flex;
+  }
+
+  .anapara{
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+
+
+.anaCards {
+  /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    
+  }
+  
+  .card {
+    border: 1px solid #2B3D54;
+    /* background-color: white; */
+    flex: 1 1 calc(25% - 20px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* background-color: rgb(2, 83, 83); */
+    background-color: #0c1a2b;
+  }
+  
+  .icon {
+    font-size: 28px;
+    color: #0ea295;
+  }
+  
+  .card h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #fdfdfd;
+  }
+  
+  .card p {
+    margin: 4px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 100%;
+    }
+  }
+  

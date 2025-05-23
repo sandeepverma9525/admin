@@ -1,0 +1,49 @@
+.treeWrapper {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .tree {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .nodeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    position: relative;
+  }
+  
+  .node {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    min-width: 80px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .node:hover {
+    transform: scale(1.05);
+  }
+  
+  .children {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .childNode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

@@ -1,0 +1,134 @@
+/* DownloadCenter.module.css */
+/* 
+const colors = {
+  blue: '#A2A3A8',       // Sidebar
+  purple: '#4CD3C8',     // Border
+  accent: '#2CBFB1',
+  lightAccent: '#25A69A',
+  success: '#109981',
+  warning: '#F59E0B',
+  danger: '#DC2626',
+  dark: '#F29377',
+  gray: '#64748B',
+  lightGray: '#E2E8F0',
+  background: '#F8FAFC',
+};
+ */
+
+
+
+.container {
+  /* border: 1px solid red; */
+    padding: 40px;
+    color: #fff;
+    background: #152637;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .heading {
+    /* border: 1px solid red; */
+    /* border: 1px solid ; */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    
+    border: 1px solid ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filterBtn {
+    
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333333;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .filterBtn:hover,
+  .active {
+    /* border: 1px solid red; */
+    background-color: #152637;
+    border: 1px solid #2B3D54;
+  }
+  
+  .searchBar {
+    
+    margin-bottom: 20px;
+  }
+  
+  .searchBar input {
+    /* border: 1px solid ; */
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .table {
+     /* border: 1px solid red ; */
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #070a2e;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  thead {
+    background-color: #2a2a2a;
+  }
+  
+
+
+  th, td {
+    /* border: 1px solid red ; */
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
+    background-color: #1F2937;
+  }
+  
+  
+  th{
+    background-color: #0F1C2E;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid #333;
+  }
+  
+  .downloadBtn {
+    background-color: #32B3A6;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .downloadBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+  

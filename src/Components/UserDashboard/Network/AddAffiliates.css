@@ -1,0 +1,137 @@
+.form-container {
+    border: 1px solid #1F2E42;
+  background-color: #0f1a2d;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.affiliate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  height: 50px;
+  font-size: 18px;
+}
+
+input, select {
+  flex: 1;
+  padding: 12px;
+  background-color: #132035;
+  color: rgb(218, 215, 215);
+  border: 1px solid #2e3d59;
+  border-radius: 5px;
+  outline: none;
+  height: 50px;
+  font-size: 18px;
+}
+
+input::placeholder {
+  color: #a0a0a0;
+}
+
+select {
+  appearance: none;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.cancelbtn {
+  border: 1px solid red;
+  box-shadow: rgba(246, 4, 4, 0.24) 0px 3px 8px;
+}
+
+button[type="submit"] {
+  background-color: #0F1C2E;
+  color: white;
+  border: 1px solid green;
+  box-shadow: rgba(75, 247, 2, 0.24) 0px 3px 8px;
+}
+
+button[type="button"] {
+  background-color: #1e293b;
+  color: white;
+}
+
+.error-msg {
+  color: #f87171;
+  margin-top: 10px;
+}
+
+/* 🔻 Mobile & Tablet Responsive Styling */
+@media (max-width: 1024px) {
+  .affiliate-form {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .affiliate-form {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .form-buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .affiliate-form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  input, select {
+    font-size: 16px;
+    height: 45px;
+  }
+
+  button {
+    font-size: 16px;
+    height: 40px;
+  }
+}
