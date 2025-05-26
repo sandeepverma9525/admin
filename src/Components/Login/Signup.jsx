@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './SignUp.css';
+import './Signup.css';
 import axios from 'axios';
 // import logo from './logoo.png'
 
@@ -65,20 +65,6 @@ const Signup = () => {
     }
     // !Api 
 
-
-    //  const existingUsers = JSON.parse(localStorage.getItem('users')) || [];
-
-    // const newUser = {
-    //   name: formData.name,
-    //   email: formData.email,
-    //   phone: formData.phone,
-    //   password: formData.password
-    // };
-
-    // localStorage.setItem('users', JSON.stringify([...existingUsers, newUser]));
-
-    // alert("Signup successful!");
-    // window.location.href = "/";
   };
 
   return (
