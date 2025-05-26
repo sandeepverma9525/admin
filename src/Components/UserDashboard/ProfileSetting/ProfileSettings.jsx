@@ -2,7 +2,7 @@ import { useState } from 'react';
 import GeneralTab from './GeneralTab';
 import SecurityTab from './SecurityTab';
 // import NotificationsTab from './NotificationsTab';
-import AgreementsTab from './AgreementsTab';
+// import AgreementsTab from './AgreementsTab';
 import './ProfileSettings.css';
 
 export default function ProfileSettings() {
@@ -50,7 +50,7 @@ export default function ProfileSettings() {
             Notifications
           </button> */}
           
-          <button 
+          {/* <button 
             className={`tab-button ${activeTab === 'agreements' ? 'active' : ''}`}
             onClick={() => setActiveTab('agreements')}
           >
@@ -58,7 +58,7 @@ export default function ProfileSettings() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
             </svg>
             Agreements
-          </button>
+          </button> */}
         </div>
         
         {/* Content */}
@@ -66,7 +66,7 @@ export default function ProfileSettings() {
           {activeTab === 'general' && <GeneralTab />}
           {activeTab === 'security' && <SecurityTab />}
           {/* {activeTab === 'notifications' && <NotificationsTab />} */}
-          {activeTab === 'agreements' && <AgreementsTab />}
+          {/* {activeTab === 'agreements' && <AgreementsTab />} */}
         </div>
       </div>
     </div>

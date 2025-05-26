@@ -357,13 +357,6 @@ const AffiliateTree = () => {
           </button>
         </div>
 
-
-
-
-
-
-
-        
         {/* Tree Visualization */}
         <div 
           className="affiliate-tree-visualization"
@@ -376,10 +369,7 @@ const AffiliateTree = () => {
         </div>
       </div>
       
-      {/* Footer Note */}
-      {/* <div className="footer-note">
-        <span className="note-label">Note:</span> Click on an affiliate to see their details and expand/collapse their downline. Use the search box to find specific affiliates in the structure.
-      </div> */}
+      
     </div>
   );
 };

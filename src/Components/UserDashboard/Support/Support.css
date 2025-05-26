@@ -451,3 +451,23 @@
 .supportsend-button:hover {
   background-color: #059669;
 }
+
+
+.support-tableheadfilter{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.supportfilter-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.supportfilter-dropdown {
+  padding: 5px 10px;
+  border-radius: 5px;
+}

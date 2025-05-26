@@ -133,17 +133,7 @@ export default function GeneralTab() {
               className="form-input"
             />
           </div>
-{/* 
-          <div>
-            <label>Address</label>
-            <input
-              type="text"
-              name="address"
-              value={profileData.address}
-              onChange={handleProfileChange}
-              className="form-input"
-            />
-          </div> */}
+
         </div>
 
         <div className="profile-picture">
@@ -160,19 +150,11 @@ export default function GeneralTab() {
               }}
             />
           )}
-          <input   
-            type="file"
-            name='user_profile_img'
-            accept="image/*"
-             onChange={(e) => setSelectedFile(e.target.files[0])}
-          />
-          {/* <button type="button" className="button-secondary" onClick={handleImageUpload}>
-            Change Image
-          </button> */}
+         
         </div>
 
         <div className="form-actions">
-          <button type="submit" className="button-primary">
+          <button type="submit" className="button-primary" style={{width:'170px', display:'flex',justifyContent:'center', alignItems:'center'}}>
             Save Changes
           </button>
         </div>

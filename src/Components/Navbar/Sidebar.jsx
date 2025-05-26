@@ -38,7 +38,7 @@ function Sidebar({ isOpen, onClose, setIsLoggedIn }) {
     { name: "Download Center", icon: <FaDownload />, path: "/downloads" },
     { name: "Support Tickets", icon: <FaLifeRing />, path: "/support" },
     { name: "Meetings", icon: <FaVideo />, path: "/meetings" },
-    { name: "Profile Settings", icon: <FaCog />, path: "/profile" },
+    // { name: "Profile Settings", icon: <FaCog />, path: "/profile" },
     { name: "Permissions", icon: <FaUserShield />, path: "/permissions" },
     { name: "ProfileSetting", icon: <FaUserShield />, path: "/profilesetting" },
 

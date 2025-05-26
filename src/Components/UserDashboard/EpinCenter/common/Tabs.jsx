@@ -22,12 +22,11 @@ const Tabs = ({ activeTab, setActiveTab }) => {
       >
         Used E-Pins
       </button>
-      
       <button
-        className={`tab ${activeTab === 'transactions' ? 'active' : ''}`}
-        onClick={() => setActiveTab('transactions')}
+        className={`tab ${activeTab === 'transferred' ? 'active' : ''}`}
+        onClick={() => setActiveTab('transferred')}
       >
-        Transactions
+        Transferred
       </button>
     </div>
   );

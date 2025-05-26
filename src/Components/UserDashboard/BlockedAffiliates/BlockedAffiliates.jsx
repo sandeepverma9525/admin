@@ -2016,8 +2016,8 @@ export default function BlockedAffiliates() {
                     <div className="email">{affiliate.email}</div>
                   </td>
                   <td>
-                    <span className={`level-badge ${(affiliate.leve || '').toLowerCase()}`}>
-                      {affiliate.level || ''}
+                    <span className={`level-badge ${(affiliate.level || 'standard').toLowerCase()}`}>
+                      {affiliate.level || 'Standard'}
                     </span>
                   </td>
                   <td>{affiliate.joinDate}</td>
@@ -2119,23 +2119,23 @@ export default function BlockedAffiliates() {
                 <div><strong>ID:</strong> {selectedAffiliate.id}</div>
                 <div><strong>Name:</strong> {selectedAffiliate.name}</div>
                 <div>
-                  {/* <strong>Level:</strong>  */}
-                  {/* <span className={`level-badge ${(selectedAffiliate.level || 'standard').toLowerCase()}`}>
+                  <strong>Level:</strong> 
+                  <span className={`level-badge ${(selectedAffiliate.level || 'standard').toLowerCase()}`}>
                     {selectedAffiliate.level || 'Standard'}
-                  </span> */}
+                  </span>
                 </div>
               </div>
               
               {modalAction === 'block' && (
                 <div className="form-group">
                   {/* <label htmlFor="blockReason">Reason for blocking:</label> */}
-                  {/* <textarea
+                  <textarea
                     id="blockReason"
                     value={blockReason}
                     onChange={(e) => setBlockReason(e.target.value)}
                     placeholder="Enter reason for blocking this affiliate..."
                     rows="3"
-                  /> */}
+                  />
                 </div>
               )}
               
