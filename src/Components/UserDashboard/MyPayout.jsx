@@ -6,9 +6,9 @@ const MyPayout = () => {
   const [filter, setFilter] = useState('all');
 
   const payouts = [
-    { ref: "REF123", date: "2025-05-01", status: "Completed", active: true },
-    { ref: "REF456", date: "2025-05-05", status: "Pending", active: false },
-    { ref: "REF789", date: "2025-05-07", status: "Failed", active: true },
+    // { ref: "REF123", date: "2025-05-01", status: "Completed", active: true },
+    // { ref: "REF456", date: "2025-05-05", status: "Pending", active: false },
+    // { ref: "REF789", date: "2025-05-07", status: "Failed", active: true },
   ];
 
   const filtered = payouts.filter(item =>
@@ -24,14 +24,14 @@ const MyPayout = () => {
           <FaMoneyBillWave className="card-icon green" />
           <div>
             <p>Total Earning</p>
-            <h3>₹ 12,000</h3>
+            <h3>₹ 0</h3>
           </div>
         </div>
         <div className="card">
           <FaClock className="card-icon yellow" />
           <div>
             <p>Pending Payouts</p>
-            <h3>₹ 4,500</h3>
+            <h3>₹ 0</h3>
           </div>
         </div>
         {/* <div className="card">

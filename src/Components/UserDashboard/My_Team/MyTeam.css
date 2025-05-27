@@ -1,0 +1,500 @@
+/* TeamManagement.css */
+
+.container {
+  background-color: #111827;
+  color: white;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.primary-button {
+  background-color: #14b8a6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Level Structure Styles */
+.level-structure-container {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.level-structure-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.level-structure-container p {
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+}
+
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.level-card {
+  background-color: #374151;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid #4b5563;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.level-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.level-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #4b5563;
+}
+
+.level-header strong {
+  font-size: 1.125rem;
+  color: #3b82f6;
+}
+
+.level-header span {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.level-card p {
+  margin: 0.5rem 0;
+  color: #d1d5db;
+  font-size: 0.875rem;
+}
+
+.level-card p strong {
+  color: #10b981;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #4b5563;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #10b981);
+  border-radius: 9999px;
+  transition: width 0.6s ease;
+}
+
+/* Binary Tree Styles */
+.binary-tree-wrapper {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.binary-tree-wrapper h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.binary-tree {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  overflow-x: auto;
+}
+
+.node-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.tree-node {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  min-width: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.tree-node:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.node-children {
+  display: flex;
+  gap: 3rem;
+  position: relative;
+}
+
+.child-node {
+  position: relative;
+}
+
+/* Tree connecting lines */
+.node-container:not(:first-child) .tree-node::before {
+  content: '';
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  width: 2px;
+  height: 2rem;
+  background-color: #4b5563;
+  transform: translateX(-50%);
+}
+
+.node-children::before {
+  content: '';
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #4b5563;
+  z-index: -1;
+}
+
+.node-children .child-node:first-child .tree-node::after {
+  content: '';
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  right: -1.5rem;
+  height: 2px;
+  background-color: #4b5563;
+  z-index: -1;
+}
+
+.node-children .child-node:last-child .tree-node::after {
+  content: '';
+  position: absolute;
+  top: -2rem;
+  right: 50%;
+  left: -1.5rem;
+  height: 2px;
+  background-color: #4b5563;
+  z-index: -1;
+}
+
+.secondary-button {
+  background-color: #374151;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.icon-span {
+  margin-right: 0.5rem;
+}
+
+.tabs-container {
+  display: flex;
+  border-bottom: 1px solid #374151;
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  color: #9ca3af;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.tab.active {
+  border-bottom: 2px solid #3b82f6;
+  color: #3b82f6;
+}
+
+.members-section {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.section-icon {
+  margin-right: 0.5rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.section-description {
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  gap: 1rem;
+  border-bottom: 1px solid #374151;
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  color: #9ca3af;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  gap: 1rem;
+  border-bottom: 1px solid #374151;
+  padding: 1rem 0;
+}
+
+.affiliate-cell {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 0.75rem;
+}
+
+.affiliate-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.affiliate-name {
+  font-weight: 500;
+}
+
+.affiliate-email {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+}
+
+.status-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.status-badge.active {
+  background-color: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+}
+
+.status-badge.inactive {
+  background-color: #374151;
+  color: #d1d5db;
+}
+
+.action-button {
+  color: #60a5fa;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.modal-content {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 28rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.modal-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.close-button {
+  color: #9ca3af;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  color: #d1d5db;
+  margin-bottom: 0.5rem;
+}
+
+.select {
+  width: 100%;
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  color: white;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.cancel-button {
+  background-color: #4b5563;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.submit-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+
+
+
+
+/* !TREE  */
+.node-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+  width: fit-content;
+}
+
+.tree-node {
+  background-color: #333;
+  color: #fff;
+  padding: 6px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.node-children {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.child-node {
+  flex: 1;
+}
+
+
+

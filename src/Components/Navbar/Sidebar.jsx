@@ -28,7 +28,7 @@ function Sidebar({ isOpen, onClose, setIsLoggedIn }) {
     { name: "Applications", icon: <FaUsers  />, path: "/applications" },
     { name: "Blocked Affiliates", icon: <FaBan />, path: "/blockedaffliates" },
     // { name: "Network", icon: <FaNetworkWired />, path: "/network" },
-    { name: "Affiliate Tree", icon: <FaSitemap />, path: "/affiliatetree" },
+    { name: "My Team", icon: <FaUsers />, path: "/team" },
     { name: "Finance", icon: <FaDollarSign />, path: "/finance" },
     { name: "Bonus Structure", icon: <FaPercent />, path: "/bonusstructure" },
     { name: "Withdrawals", icon: <FaPaperPlane />, path: "/withdrawals" },
@@ -48,7 +48,6 @@ function Sidebar({ isOpen, onClose, setIsLoggedIn }) {
 
     
     // { name: "My Invoices", icon: <FaFileInvoice />, path: "/invoices" },
-    // { name: "My Team", icon: <FaUsers />, path: "/team" },
     // { name: "Earning Wallet", icon: <FaWallet />, path: "/wallet" },
     // { name: "My Payouts", icon: <FaDollarSign />, path: "/payouts" },
     // { name: "My Referrals", icon: <FaShareAlt />, path: "/referrals" },

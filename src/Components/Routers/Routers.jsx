@@ -19,7 +19,7 @@ import KYCApplications from '../UserDashboard/KYCApplications/KYCApplications';
 import Applications from '../UserDashboard/Applications/Applications';
 import BlockedAffiliates from '../UserDashboard/BlockedAffiliates/BlockedAffiliates';
 import Network from '../UserDashboard/Network/Network';
-import AffiliateTree from '../UserDashboard/AffiliateTree/AffiliateTree';
+
 import Finance from '../UserDashboard/Finance/Finance';
 import BonusStructure from '../UserDashboard/BonusStructure/BonusStructure';
 import Withdrawals from '../UserDashboard/Withdrawals/Withdrawals';
@@ -102,7 +102,7 @@ const Routers = () => {
                 <Route path='applications' element={<Applications/>}  />
                 <Route path='blockedaffliates' element={<BlockedAffiliates/>} />
                 <Route path='network' element={<Network/>} />
-                <Route path='affiliatetree' element={<AffiliateTree/>} />
+                
                 <Route path='finance' element={<Finance/>} />
                 <Route path='bonusstructure' element={<BonusStructure/>} />
                 <Route path='withdrawals' element={<Withdrawals/>} />
